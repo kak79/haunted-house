@@ -32,7 +32,7 @@ class UsersController < ApplicationController
 
   def find_user
     @user = User.find_by(id: params[:id])
-    redirect_to users_path if !@user
+    redirect_to user_path if !@user
   end
 
   def user_params

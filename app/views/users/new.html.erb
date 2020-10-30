@@ -11,7 +11,13 @@
 <br>
 <%= form.label "Password" %>
 <br>
-<%= form.text_field :password %>
+<%= form.password_field :password %>
+<br>
+<%= form.label "Password Confirmation" %>
+<br>
+<%= form.password_field :password_confirmation %>
 <br>
 <%= form.submit "Add User" %>
 <% end %>
+
+

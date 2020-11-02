@@ -55,4 +55,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # for password management
-gem 'sorcery', '~> 0.15.0'
+gem 'bcrypt', '~> 3.1.7'
